@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 800px;
+  height: 80px;
+  border-bottom: 1.5px solid black;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  margin-right: 35px;
+}
+.name {
+  font-size: 1.35rem;
+  font-weight: 700;
+  width: 150px;
+  margin-right: 15px;
+}
+.symbol {
+  width: 150px;
+}
+.price {
+  width: 140px;
+}
+.priceChange {
+  width: 120px;
+}
+.priceChange-red {
+  color: red;
+}
+.priceChange-green {
+  color: green;
+}
+.marketCap {
+  width: 190px;
+}
+p {
+  font-size: 1.1rem;
+}
+.moreinfo-btn {
+  background-color: #423f3f;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 13px;
+}
+.moreinfo-btn:hover {
+  transform: scale(1.08);
+  transition: all ease-in-out 0.2s;
+}
+
+
+/* bold */
+.name, .symbol, .price, .priceChange, .marketCap {
+  font-weight: bold;
+}

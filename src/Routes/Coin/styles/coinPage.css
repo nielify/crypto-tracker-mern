@@ -1,0 +1,50 @@
+.coinpage-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coinpage-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ffffffc0;
+  border-radius: 25px;
+  padding: 2rem;
+}
+.coinpage-container-horiz {
+  display: flex;
+  margin: 5px 0;
+}
+.coinpage-center-container {
+  width: 100%;
+  text-align: center;
+}
+.coinpage-title {
+  font-size: 2.5rem;
+}
+.coinpage-subtitle {
+  display: flex;
+  justify-content: flex-start;
+  width: 200px;
+}
+.coinpage-icon {
+  height: 170px;
+  width: 170px;
+  margin: 25px 0;
+}
+.coinpage-button {
+  margin-top: 10px;
+  background-color: #423f3f;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  padding: 7px 12px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+
+}
+.coinpage-button:hover {
+  transform: scale(1.08);
+  transition: all ease-in-out 0.2s;
+}

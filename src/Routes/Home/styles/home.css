@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 15px 0 25px 0;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.searchbox {
+  height: 2.5rem;
+  background-color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 300px;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+.searchbox:focus {
+  outline: none;
+}
+.refresh-btn {
+  margin-left: 12px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.refresh-btn:hover {
+  transform: scale(1.15);
+  transition: all ease-in-out 0.2s;
+}

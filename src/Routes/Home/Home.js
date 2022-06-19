@@ -1,4 +1,5 @@
 import './styles/home.css';
+import styles from './styles/home.module.css';
 import refresh from '../../images/refresh.png';
 import { useEffect, useRef, useState } from 'react';
 import axios from 'axios';
@@ -31,7 +32,7 @@ const Home = () => {
   }, [])
 
   return (
-    <div className='main'>
+    <div className={`main ${styles.main}`}>
       <h2 className='title'>Crypto Tracker</h2>
       <div className='search-container'>
         <input 
